@@ -1,0 +1,115 @@
+.section {
+  padding: 6rem 4rem;
+  background: var(--bg2);
+}
+
+.tag {
+  font-family: var(--font-mono);
+  font-size: 35px;
+  color: var(--accent);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.title {
+  font-family: var(--font-head);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 400;
+  line-height: 1.15;
+  margin-bottom: 1.5rem;
+}
+
+.title em {
+  font-style: italic;
+  color: var(--accent2);
+}
+
+.para {
+  color: var(--muted);
+  line-height: 1.9;
+  margin-bottom: 1.25rem;
+  font-size: 15px;
+}
+
+.pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 2rem;
+}
+
+.pill {
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 12px;
+  font-family: var(--font-mono);
+  padding: 5px 14px;
+  border-radius: 100px;
+}
+
+/* Timeline */
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.timelineItem {
+  display: flex;
+  gap: 1.25rem;
+  padding-bottom: 2rem;
+}
+
+.timelineItem:last-child { padding-bottom: 0; }
+
+.timelineLine {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dot {
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex-shrink: 0;
+  margin-top: 5px;
+}
+
+.bar {
+  width: 1px;
+  background: var(--border);
+  flex: 1;
+  margin-top: 6px;
+}
+
+.year {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--accent);
+  margin-bottom: 0.25rem;
+}
+
+.role {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.company {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+@media (max-width: 768px) {
+  .section { padding: 4rem 1.5rem; }
+  .grid { grid-template-columns: 1fr; gap: 3rem; }
+}
