@@ -16,9 +16,9 @@ export default function Hero() {
         <h2 className={styles.nameLabel}>{PERSONAL.name}</h2>
 
         <h1 className={styles.title}>
-          Java Backend<br />
-          Engineer &<br />
-          <em>Full-Stack Builder</em>
+          Full Stack Developer(Node.js | React.js | Java & Spring Boot)<br />
+          {/* Eng&<br />
+          <em>Full-Stack Builder</em> */}
         </h1>
 
         <p className={styles.sub}>

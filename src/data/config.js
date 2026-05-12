@@ -1,15 +1,13 @@
-// ─────────────────────────────────────────────────────────────────────────────
-//  PORTFOLIO CONFIG  ·  Edit everything here to make it yours
-// ─────────────────────────────────────────────────────────────────────────────
 
 export const PERSONAL = {
   name:         'Dharanipathi P',
   title:        'Full-Stack Developer & Creative Coder',
   tagline:      'Open to work',
   bio: [
-    "I'm a Java engineer who believes great software is both technically sound and delightful to use — not one or the other.",
-    "Over the past 2 years, I've shipped production-grade applications built on Java, Spring Boot, Microservices, and RESTful APIs. I care deeply about the craft: clean architecture, meaningful abstractions, and systems that don't break under pressure.",
-    "Outside the code, I write about software engineering and mentor junior developers — because the best way to sharpen your thinking is to teach it.",
+    "Full Stack Developer with 1+ year of production experience building RESTful APIs, microservices, and responsive React",
+    "front-ends. Delivered a 40% reduction in processing time through targeted backend refactoring and MVC architecture",
+    "optimisation. Comfortable across the full stack — React Hooks, Node.js/Express, Spring Boot, PostgreSQL/MySQL —",
+    "with a strong grounding in TypeScript, Git workflows, and Agile/Scrum delivery. Immediate joiner; open to relocation",
     "I'm currently exploring Full-Stack Development and open to new opportunities. If you're building something worth caring about, let's talk.",
   ],
   email:        'dharanipathipala@gmail.com',
@@ -20,7 +18,7 @@ export const PERSONAL = {
 };
 
 export const STATS = [
-  { num: '2',  label: 'Years of Experience' },
+  { num: '1+',  label: 'Years of Experience' },
   { num: '5+', label: 'Projects Shipped' },
   { num: '5+', label: 'Happy Clients' },
 ];
@@ -104,6 +102,18 @@ export const SKILLS = [
   //   desc: 'Relational schema design, complex queries, migrations, and ORM integration for type-safe data access.',
   //   level: 85,
   // },
+    {
+    icon: '🐳',
+    name: 'Docker',
+    desc: 'Containerization, multi-stage builds, Docker Compose orchestration, and image optimization for consistent dev and production environments.',
+    level: 80,
+  },
+  {
+    icon: '☸️',
+    name: 'Kubernetes',
+    desc: 'Container orchestration, cluster management, Helm chart authoring, and deploying scalable microservices with rolling updates and autoscaling.',
+    level: 75,
+  },
   {
     icon: '☁️',
     name: 'AWS / DevOps',
