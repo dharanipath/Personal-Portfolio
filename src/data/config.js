@@ -4,17 +4,19 @@ export const PERSONAL = {
   title:        'Full-Stack Developer & Creative Coder',
   tagline:      'Open to work',
   bio: [
-    "Full Stack Developer with 1+ year of production experience building RESTful APIs, microservices, and responsive React",
-    "front-ends. Delivered a 40% reduction in processing time through targeted backend refactoring and MVC architecture",
-    "optimisation. Comfortable across the full stack — React Hooks, Node.js/Express, Spring Boot, PostgreSQL/MySQL —",
-    "with a strong grounding in TypeScript, Git workflows, and Agile/Scrum delivery. Immediate joiner; open to relocation",
-    "I'm currently exploring Full-Stack Development and open to new opportunities. If you're building something worth caring about, let's talk.",
+    "Java Developer with 1 year of hands-on experience building and deploying production-grade backend systems using Core Java, Spring Boot, and RESTful APIs.",
+    "Proficient in OOP design, relational databases (MySQL/PostgreSQL), and Git-based workflows within Agile teams of 4–6 engineers.",
+    "Delivered a 40% reduction in processing time across production microservices through targeted refactoring and MVC architecture optimisation.",
+    "Brings a track record of writing clean, maintainable Java code and a strong foundation in data structures, algorithms, and SQL query performance.",
+    "Immediate joiner; open to relocation.",
+    "I'm currently open to new opportunities. If you're building something worth caring about, let's talk.",
   ],
   email:        'dharanipathipala@gmail.com',
   github:       'https://github.com/dharanipath',
   linkedin:     'https://linkedin.com/in/dharanipath-pala',  // ← add your LinkedIn URL
   // twitter:      'https://twitter.com/yourhandle',
   githubUsername: 'dharanipath',   // ← default username loaded in Projects
+  contact: '+91-63035 47066',
 };
 
 export const STATS = [
@@ -123,8 +125,8 @@ export const SKILLS = [
 ];
 
 export const STACK_PILLS = [
-  'Java','Spring Boot','Microservices','MySQL','MongoDB','Postman',
-  'Maven','Spring MVC','Spring Security','React / React.js', 'Node.js / Express', 'PostgreSQL',
+  'Java','Spring Boot','Microservices','RESTful APIs','MySQL','MongoDB','Postman',
+  'Maven','Spring MVC','Spring Security','React.js', 'Node.js / Express', 'PostgreSQL',
   'AWS',
 ];
 
@@ -136,7 +138,7 @@ export const TIMELINE = [
   },
   {
     year:    'Jul 2023 — Mar 2024',
-    role:    'Freelance Java Developer',
+    role:    'Freelance Full-Stack Java Developer',
     company: 'Palle Technologies · Bangalore',
   },
   // {
@@ -147,6 +149,6 @@ export const TIMELINE = [
   {
     year:    '2019 — 2023',
     role:    'B.Tech Computer Science and Engineering',
-    company: 'IIIT Kadapa · Andhra Pradesh',
+    company: 'RGUKT RK Valley Kadapa · Andhra Pradesh',
   },
 ];

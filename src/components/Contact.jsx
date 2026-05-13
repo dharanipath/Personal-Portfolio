@@ -28,11 +28,19 @@ const MailIcon = () => (
   </svg>
 )
 
+const ContactIcon = () => (
+  <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" fill="none" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+    <circle cx="12" cy="8" r="4" />
+    <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7" />
+  </svg>
+)
+
 const LINKS = [
   { href: `mailto:${PERSONAL.email}`, label: PERSONAL.email,  Icon: MailIcon },
   { href: PERSONAL.github,            label: 'GitHub',         Icon: GithubIcon },
   { href: PERSONAL.linkedin,          label: 'LinkedIn',       Icon: LinkedInIcon },
   // { href: PERSONAL.twitter,           label: 'Twitter',        Icon: TwitterIcon },
+  { href: PERSONAL.contact,   label: PERSONAL.contact, Icon: ContactIcon },
 ]
 
 export default function Contact() {
@@ -44,7 +52,7 @@ export default function Contact() {
           Let's build<br /><em>something great</em>
         </h2>
         <p className={styles.sub}>
-          I'm always open to interesting projects and opportunities. Drop me a
+          I'm open to interesting projects and opportunities. Drop me a
           line — I typically respond within 24 hours.
         </p>
         <div className={styles.links}>
