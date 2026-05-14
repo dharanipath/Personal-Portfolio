@@ -8,7 +8,7 @@ export default function DownloadCV() {
         Interested in working together? Download my CV to see my experience and skills in detail.
       </p>  
       <br></br>    
-      <a href="/Dharanipathi_Java_Resume.pdf" download className={styles.cta}> Download CV
+      <a href="/Dharanipathi_Java_Resume.pdf" target="_blank" rel="noopener noreferrer" className={styles.cta}> View CV
       </a>
     </section>
   );
