@@ -16,7 +16,8 @@ export default function Hero() {
         <h2 className={styles.nameLabel}>{PERSONAL.name}</h2>
 
         <h1 className={styles.title}>
-          Full Stack Developer(Node.js | React.js | Java & Spring Boot)<br />
+          Java Developer | Spring Boot · REST APIs · SQL | Open to Support & Development Roles<br />
+          {/* Java Developer| Application Support Engineer (Java & Spring Boot | )<br /> */}
           {/* Eng&<br />
           <em>Full-Stack Builder</em> */}
         </h1>

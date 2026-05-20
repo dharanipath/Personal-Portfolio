@@ -4,8 +4,8 @@ export const PERSONAL = {
   title:        'Full-Stack Developer & Creative Coder',
   tagline:      'Open to work',
   bio: [
-    "Java Developer with 1 year of hands-on experience building and deploying production-grade backend systems using Core Java, Spring Boot, and RESTful APIs.",
-    "Proficient in OOP design, relational databases (MySQL/PostgreSQL), and Git-based workflows within Agile teams of 4–6 engineers.",
+    "Java Developer and Application Support Engineer with 1 year of hands-on experience building and deploying production-grade backend systems using Core Java, Spring Boot, and RESTful APIs.",
+    "Proficient in OOP design, relational databases (MySQL), and Git-based workflows within Agile teams of 4–6 engineers.",
     "Delivered a 40% reduction in processing time across production microservices through targeted refactoring and MVC architecture optimisation.",
     "Brings a track record of writing clean, maintainable Java code and a strong foundation in data structures, algorithms, and SQL query performance.",
     "Immediate joiner; open to relocation.",
@@ -126,7 +126,7 @@ export const SKILLS = [
 
 export const STACK_PILLS = [
   'Java','Spring Boot','Microservices','RESTful APIs','MySQL','MongoDB','Postman',
-  'Maven','Spring MVC','Spring Security','React.js', 'Node.js / Express', 'PostgreSQL',
+  'Maven','Spring MVC','Spring Security','Jira','JDBC','Agile','GitHub','Docker','Kubernetes',
   'AWS',
 ];
 
