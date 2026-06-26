@@ -13,7 +13,7 @@ export const PERSONAL = {
   ],
   email:        'dharanipathipala@gmail.com',
   github:       'https://github.com/dharanipath',
-  linkedin:     'https://linkedin.com/in/dharanipath-pala',  // ← add your LinkedIn URL
+  linkedin:     'https://linkedin.com/in/dharanipathi-pala',  // ← add your LinkedIn URL
   // twitter:      'https://twitter.com/yourhandle',
   githubUsername: 'dharanipath',   // ← default username loaded in Projects
   contact: '+91-63035 47066',
