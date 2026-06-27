@@ -4,12 +4,9 @@ export const PERSONAL = {
   title:        'Full-Stack Developer & Creative Coder',
   tagline:      'Open to work',
   bio: [
-    "Java Developer and Application Support Engineer with 1 year of hands-on experience building and deploying production-grade backend systems using Core Java, Spring Boot, and RESTful APIs.",
-    "Proficient in OOP design, relational databases (MySQL), and Git-based workflows within Agile teams of 4–6 engineers.",
-    "Delivered a 40% reduction in processing time across production microservices through targeted refactoring and MVC architecture optimisation.",
-    "Brings a track record of writing clean, maintainable Java code and a strong foundation in data structures, algorithms, and SQL query performance.",
-    "Immediate joiner; open to relocation.",
-    "I'm currently open to new opportunities. If you're building something worth caring about, let's talk.",
+        "Java developer with 1+ year of hands-on experience designing and deploying Spring Boot REST APIs backed by SQL databases."
+        "Built and shipped full-stack portfolio projects — including a real-time AI chat application integrating the Anthropic API — demonstrating end-to-end ownership from backend architecture to cloud deployment."
+        "Focused on writing clean, maintainable code and growing into backend engineering roles where reliability and scalability matter."
   ],
   email:        'dharanipathipala@gmail.com',
   github:       'https://github.com/dharanipath',
