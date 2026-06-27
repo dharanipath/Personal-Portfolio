@@ -6,7 +6,7 @@ export const PERSONAL = {
   bio: [
         "Java developer with 1+ year of hands-on experience designing and deploying Spring Boot REST APIs backed by SQL databases."
         "Built and shipped full-stack portfolio projects — including a real-time AI chat application integrating the Anthropic API — demonstrating end-to-end ownership from backend architecture to cloud deployment."
-        "Focused on writing clean, maintainable code and growing into backend engineering roles where reliability and scalability matter."
+        "Focused on writing clean, maintainable code and growing into backend engineering roles where reliability and scalability matter.",
   ],
   email:        'dharanipathipala@gmail.com',
   github:       'https://github.com/dharanipath',
