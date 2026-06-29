@@ -1,117 +1,92 @@
-# 🚀 Dev Portfolio — React + Vite
+# Dev Portfolio
 
-A sleek, production-grade personal portfolio built with React, Vite, and CSS Modules.
-Features a **live GitHub integration** that fetches real repos via the GitHub REST API.
+Personal portfolio built with **React + Vite**, featuring live GitHub repo integration via the GitHub REST API and component-scoped styling with CSS Modules.
+
+**Live:** [dharanipathi.dev](https://personal-portfolio-nu-vert-58.vercel.app) &nbsp;·&nbsp; **GitHub:** [dharanipath](https://github.com/dharanipath)
 
 ---
 
-## 📁 Project Structure
+## Tech stack
+
+| Layer | Choice |
+|---|---|
+| Framework | React 18 + Vite |
+| Styling | CSS Modules |
+| Data | GitHub REST API (unauthenticated) |
+| Deployment | Vercel |
+
+---
+
+## Project structure
 
 ```
-portfolio/
-├── index.html
-├── vite.config.js
-├── package.json
-├── src/
-│   ├── main.jsx              # Entry point
-│   ├── App.jsx               # Root component
-│   ├── index.css             # Global styles & design tokens
-│   ├── data/
-│   │   └── config.js         # ← EDIT THIS to personalize
-│   ├── hooks/
-│   │   └── useGitHub.js      # GitHub API hook
-│   └── components/
-│       ├── Navbar.jsx / .module.css
-│       ├── Hero.jsx   / .module.css
-│       ├── About.jsx  / .module.css
-│       ├── Skills.jsx / .module.css
-│       ├── Projects.jsx / .module.css
-│       ├── RepoCard.jsx / .module.css
-│       ├── Contact.jsx  / .module.css
-│       └── Footer.jsx   / .module.css
+src/
+├── data/config.js          # Single source of truth for all personal content
+├── hooks/useGitHub.js      # GitHub API integration
+└── components/
+    ├── Navbar, Hero, About
+    ├── Skills, Projects
+    ├── RepoCard, Contact, Footer
 ```
 
 ---
 
-## ✏️ Personalization
+## Getting started
 
-Open **`src/data/config.js`** and update:
+**Prerequisites:** Node.js ≥ 18, npm ≥ 9
 
-| Field              | Description                              |
-|--------------------|------------------------------------------|
-| `PERSONAL.name`    | Your full name                           |
-| `PERSONAL.email`   | Contact email                            |
-| `PERSONAL.github`  | Your GitHub profile URL                  |
-| `PERSONAL.linkedin`| Your LinkedIn URL                        |
-| `PERSONAL.twitter` | Your Twitter/X URL                       |
-| `PERSONAL.githubUsername` | GitHub username for the repos section |
-| `PERSONAL.bio`     | Array of biography paragraphs            |
-| `STATS`            | Hero section numbers (years, projects…)  |
-| `SKILLS`           | Skill cards with icon, name, desc, level |
-| `STACK_PILLS`      | Tech pills in About section              |
-| `TIMELINE`         | Career / education timeline              |
-
----
-
-## 🛠 Setup & Development
-
-### Prerequisites
-- Node.js ≥ 18
-- npm ≥ 9
-
-### Install dependencies
 ```bash
-npm install
-```
-
-### Start dev server
-```bash
-npm run dev
-```
-
-Open [http://localhost:5173](http://localhost:5173) in your browser.
-
-### Build for production
-```bash
-npm run build
-```
-
-Output goes to `dist/` — deploy to Vercel, Netlify, GitHub Pages, etc.
-
-### Preview production build
-```bash
-npm run preview
+npm install       # install dependencies
+npm run dev       # start dev server → http://localhost:5173
+npm run build     # production build → dist/
+npm run preview   # preview production build locally
 ```
 
 ---
 
-## 🌐 Deploy to Vercel (recommended)
+## Personalisation
 
-1. Push your project to a GitHub repo
-2. Go to [vercel.com](https://vercel.com) and import the repo
-3. Vercel auto-detects Vite — click **Deploy**
-4. Done! Your portfolio is live 🎉
+All content is managed from a single file: **`src/data/config.js`**
+
+| Key | Purpose |
+|---|---|
+| `PERSONAL.name` | Full name |
+| `PERSONAL.email` | Contact email |
+| `PERSONAL.github` | GitHub profile URL |
+| `PERSONAL.linkedin` | LinkedIn URL |
+| `PERSONAL.githubUsername` | Username that drives the repos section |
+| `PERSONAL.bio` | Biography paragraphs (array) |
+| `STATS` | Hero section numbers — years, projects, etc. |
+| `SKILLS` | Skill cards with icon, name, description, level |
+| `STACK_PILLS` | Tech pills in the About section |
+| `TIMELINE` | Career and education entries |
 
 ---
 
-## 🎨 Theming
+## Theming
 
-All design tokens live in `src/index.css` under `:root`. Change the accent colors, backgrounds, or fonts there.
+Design tokens are defined in `src/index.css` under `:root`. Override accent colours, backgrounds, or fonts there — no component changes needed.
 
 ```css
 :root {
-  --accent:  #7C6FF0;   /* primary purple */
-  --accent2: #C084FC;   /* gradient end   */
-  --green:   #34D399;   /* availability dot */
-  /* ... */
+  --accent:  #7C6FF0;   /* primary accent */
+  --accent2: #C084FC;   /* gradient endpoint */
+  --green:   #34D399;   /* availability indicator */
 }
 ```
 
 ---
 
-## 📡 GitHub API
+## GitHub API
 
-The Projects section uses the **unauthenticated** GitHub REST API, which has a rate limit of 60 requests/hour per IP. For higher limits, add a `VITE_GITHUB_TOKEN` env variable and update `useGitHub.js` to include an `Authorization` header:
+The Projects section calls the unauthenticated GitHub REST API (rate limit: 60 req/hr per IP). To raise the limit, add a personal access token:
+
+```bash
+# .env
+VITE_GITHUB_TOKEN=your_token_here
+```
+
+Then pass it as an `Authorization` header in `useGitHub.js`:
 
 ```js
 headers: {
@@ -121,6 +96,14 @@ headers: {
 
 ---
 
-## 📜 License
+## Deploy to Vercel
 
-MIT — use freely, attribution appreciated.
+1. Push to a GitHub repository
+2. Import the repo at [vercel.com](https://vercel.com)
+3. Vercel auto-detects Vite — click **Deploy**
+
+---
+
+## License
+
+MIT — free to use, attribution appreciated.
