@@ -123,7 +123,7 @@ export const SKILLS = [
 
 export const STACK_PILLS = [
   'Java','Spring Boot','Microservices','RESTful APIs','MySQL','MongoDB','Postman',
-  'Maven','Spring MVC','Spring Security','Jira','JDBC','Agile','GitHub','Docker','Kubernetes',
+  'Javascript','Kafka','React.js','JDBC','Agile','Git','Docker','Kubernetes',
   'AWS',
 ];
 
