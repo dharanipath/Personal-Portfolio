@@ -72,12 +72,6 @@ export const SKILLS = [
   level: 85,
   },
   {
-  icon: '🏗️',
-  name: 'Spring MVC',
-  desc: 'DispatcherServlet architecture, controllers, view resolvers, request mapping, and exception handling.',
-  level: 86,
-  },
-  {
   icon: '🔒',
   name: 'Spring Security',
   desc: 'JWT authentication, OAuth2, role-based access control, filter chains, and method-level security.',
