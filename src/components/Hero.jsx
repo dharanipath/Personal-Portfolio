@@ -16,17 +16,12 @@ export default function Hero() {
         <h2 className={styles.nameLabel}>{PERSONAL.name}</h2>
 
         <h1 className={styles.title}>
-          Java Developer | Spring Boot · REST APIs · SQL | Open to Support & Development Roles<br />
-          {/* Java Developer| Application Support Engineer (Java & Spring Boot | )<br /> */}
-          {/* Eng&<br />
-          <em>Full-Stack Builder</em> */}
+          Java Developer | Spring Boot · Hibernate ·REST APIs · Microservices ·Devops · SQL/MySQL  | Open for New Roles & Responsibilities<br />
         </h1>
 
         <p className={styles.sub}>
           I architect robust backends, design intuitive interfaces, and 
           deliver production-grade software — end to end.
-          {/* I build exceptional digital products — from pixel-perfect interfaces
-          to scalable backends. Turning complex problems into elegant solutions. */}
         </p>
 
         <div className={styles.actions}>
