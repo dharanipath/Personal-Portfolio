@@ -16,7 +16,7 @@ export default function Hero() {
         <h2 className={styles.nameLabel}>{PERSONAL.name}</h2>
 
         <h1 className={styles.title}>
-          Java Developer | Spring Boot · Hibernate ·REST APIs · Microservices ·Devops · SQL/MySQL  | Open for New Roles & Responsibilities<br />
+          Java Developer | Spring Boot | Hibernate | REST APIs | Microservices | Devops | SQL/MySQL | Open for New Roles & Responsibilities<br />
         </h1>
 
         <p className={styles.sub}>
