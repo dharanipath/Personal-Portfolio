@@ -124,7 +124,7 @@ export const STACK_PILLS = [
 export const TIMELINE = [
   {
     year:    'Nov 2024 — Dec 2025',
-    role:    'Java Developer',
+    role:    'Associate Software Engineer',
     company: 'Bizviz Technologies Pvt. Ltd. · Bangalore',
   },
   {
