@@ -4,9 +4,9 @@ export const PERSONAL = {
   title:        'Full-Stack Developer & Creative Coder',
   tagline:      'Open to work',
   bio: [
-        "Java Backend Engineer with 2+ years of experience architecting and deploying scalable Spring Boot REST APIs and microservice-driven backends."
-        "Proven experience in full-lifecycle project ownership — building high-throughput systems with SQL/NoSQL databases, integrating AI services (like Anthropic API)"
-        "for real-time processing, and containerizing workloads via Docker & Kubernetes."
+        "Java Backend Engineer with 2+ years of experience architecting and deploying scalable Spring Boot REST APIs and microservice-driven backends.",
+        "Proven experience in full-lifecycle project ownership — building high-throughput systems with SQL/NoSQL databases, integrating AI services (like Anthropic API)",
+        "for real-time processing, and containerizing workloads via Docker & Kubernetes.",
         "Passionate about low-latency data pipelines, clean code design patterns, and engineering high-availability backend solutions built to scale in complex cloud environments.",
   ],
   email:        'dharanipathipala@gmail.com',
